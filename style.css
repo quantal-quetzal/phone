@@ -7,6 +7,12 @@ body {
   font-family: "Comic Neue", cursive;
 }
 
+.fritzbox {
+  background: orange; 
+  text-align: center;
+  padding: 10px;
+}
+
 .container {
   height: 100%;
   padding: 40px;
