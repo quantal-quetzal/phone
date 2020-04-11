@@ -21,7 +21,7 @@ function work() {
 }
 
 async function send(body) {
-  await fetch("http://fritz.box/data.lua", {
+  await fetch("https://fritz.box/data.lua", {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
